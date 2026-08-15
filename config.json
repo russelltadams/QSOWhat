@@ -10,7 +10,7 @@
     "title": "QSOWhat",
     "subtitle": "Amateur Radio Log & Activities",
     "description": "Personal amateur radio logging and blog site",
-    "admin_password": "happyham"
+    "admin_password": "changeme"
   },
   "qsl": {
     "default_message": "Thanks for the QSO! 73s",

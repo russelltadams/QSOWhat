@@ -20,9 +20,10 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 # Load configuration
 app.config['QSOWHAT_CONFIG'] = load_config()
 
-# Admin credentials from config
+# Admin credentials — password comes from the ADMIN_PASSWORD env var (a Fly secret),
+# never from config.json, since that file is committed to a public repo.
 ADMIN_USERNAME = get_config_value('station.call_sign', 'N0CALL')
-ADMIN_PASSWORD = get_config_value('site.admin_password', 'changeme')
+ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', get_config_value('site.admin_password', 'changeme'))
 
 # Create upload directory if it doesn't exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
