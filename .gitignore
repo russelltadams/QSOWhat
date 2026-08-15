@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+uploads/*
+!uploads/.gitkeep
+station_log_backup.json
