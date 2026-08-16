@@ -158,6 +158,7 @@
                                         <th>Country</th>
                                         <th>Grid</th>
                                         <th>RST</th>
+                                        <th>QSL</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -199,6 +200,13 @@
                                                 <span class="text-muted">{{ contact.rst_sent or 'N/A' }}/{{ contact.rst_rcvd or 'N/A' }}</span>
                                             {% else %}
                                                 {{ contact.rst_sent }}/{{ contact.rst_rcvd }}
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if contact.qsl_rcvd and contact.qsl_rcvd.upper() in ['Y', 'YES'] %}
+                                                <span class="badge bg-success"><i class="fas fa-check"></i> Confirmed</span>
+                                            {% else %}
+                                                <span class="badge bg-secondary">Pending</span>
                                             {% endif %}
                                         </td>
                                         <td>

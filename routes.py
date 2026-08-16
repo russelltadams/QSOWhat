@@ -31,6 +31,8 @@ def index():
     
     # Calculate statistics
     total_contacts = len(station_log['contacts'])
+    confirmed_contacts = sum(1 for contact in station_log['contacts']
+                              if contact.get('qsl_rcvd', '').upper() in ['Y', 'YES'])
     unique_bands = set(contact.get('band', '').upper() for contact in station_log['contacts'] if contact.get('band'))
     unique_modes = set(contact.get('mode', '').upper() for contact in station_log['contacts'] if contact.get('mode'))
     unique_countries = set(contact.get('country', '') for contact in station_log['contacts'] if contact.get('country'))
@@ -41,6 +43,7 @@ def index():
     
     stats = {
         'total_contacts': total_contacts,
+        'confirmed_contacts': confirmed_contacts,
         'total_bands': len(unique_bands),
         'total_modes': len(unique_modes),
         'total_countries': len(unique_countries)
