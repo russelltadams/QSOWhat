@@ -3,8 +3,8 @@
     "station_callsign": "KM6KFX",
     "operator": "KM6KFX",
     "created_timestamp": "2025-07-12T00:00:00Z",
-    "last_updated": "2026-08-15T15:05:34.756839",
-    "total_contacts": 738,
+    "last_updated": "2026-08-19T23:20:01.395813",
+    "total_contacts": 740,
     "adif_version": "3.1.4"
   },
   "contacts": [
@@ -20093,6 +20093,42 @@
         "qth": "Chattanooga",
         "cqz": "5",
         "tx_pwr": "0"
+      }
+    },
+    {
+      "call": "AD6WL",
+      "qso_date": "2026-08-20",
+      "time_on": "06:12:30",
+      "time_off": "06:13:44",
+      "band": "20M",
+      "freq": "14.076250",
+      "mode": "FT8",
+      "rst_sent": "-13",
+      "rst_rcvd": "-24",
+      "gridsquare": "DM14",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: -13  Rcvd: -24",
+      "additional_fields": {
+        "qso_date_off": "20260820",
+        "my_gridsquare": "CM87VU"
+      }
+    },
+    {
+      "call": "JE2UFF",
+      "qso_date": "2026-08-20",
+      "time_on": "06:17:30",
+      "time_off": "06:18:44",
+      "band": "20M",
+      "freq": "14.076250",
+      "mode": "FT8",
+      "rst_sent": "+02",
+      "rst_rcvd": "-08",
+      "gridsquare": "PM94",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: +02  Rcvd: -08",
+      "additional_fields": {
+        "qso_date_off": "20260820",
+        "my_gridsquare": "CM87VU"
       }
     }
   ]
