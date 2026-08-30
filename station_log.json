@@ -3,8 +3,8 @@
     "station_callsign": "KM6KFX",
     "operator": "KM6KFX",
     "created_timestamp": "2025-07-12T00:00:00Z",
-    "last_updated": "2026-08-29T17:40:02.022376",
-    "total_contacts": 744,
+    "last_updated": "2026-08-29T17:50:01.423509",
+    "total_contacts": 747,
     "adif_version": "3.1.4"
   },
   "contacts": [
@@ -20197,6 +20197,60 @@
       "gridsquare": "DM13",
       "station_callsign": "KM6KFX",
       "comment": "FT8  Sent: -08  Rcvd: -08",
+      "additional_fields": {
+        "qso_date_off": "20260830",
+        "my_gridsquare": "CM87VU"
+      }
+    },
+    {
+      "call": "AK4WA",
+      "qso_date": "2026-08-30",
+      "time_on": "00:41:45",
+      "time_off": "00:42:45",
+      "band": "20M",
+      "freq": "14.075648",
+      "mode": "FT8",
+      "rst_sent": "-07",
+      "rst_rcvd": "-02",
+      "gridsquare": "CN87",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: -07  Rcvd: -02",
+      "additional_fields": {
+        "qso_date_off": "20260830",
+        "my_gridsquare": "CM87VU"
+      }
+    },
+    {
+      "call": "KE7DJB",
+      "qso_date": "2026-08-30",
+      "time_on": "00:46:00",
+      "time_off": "00:47:14",
+      "band": "20M",
+      "freq": "14.075127",
+      "mode": "FT8",
+      "rst_sent": "-02",
+      "rst_rcvd": "-16",
+      "gridsquare": "DM43",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: -02  Rcvd: -16",
+      "additional_fields": {
+        "qso_date_off": "20260830",
+        "my_gridsquare": "CM87VU"
+      }
+    },
+    {
+      "call": "AJ7LJ",
+      "qso_date": "2026-08-30",
+      "time_on": "00:48:15",
+      "time_off": "00:49:15",
+      "band": "20M",
+      "freq": "14.074487",
+      "mode": "FT8",
+      "rst_sent": "-01",
+      "rst_rcvd": "+03",
+      "gridsquare": "CN85",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: -01  Rcvd: +03",
       "additional_fields": {
         "qso_date_off": "20260830",
         "my_gridsquare": "CM87VU"
