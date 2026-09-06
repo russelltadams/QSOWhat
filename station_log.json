@@ -3,8 +3,8 @@
     "station_callsign": "KM6KFX",
     "operator": "KM6KFX",
     "created_timestamp": "2025-07-12T00:00:00Z",
-    "last_updated": "2026-09-06T14:50:02.715752",
-    "total_contacts": 761,
+    "last_updated": "2026-09-06T15:50:02.785250",
+    "total_contacts": 762,
     "adif_version": "3.1.4"
   },
   "contacts": [
@@ -20502,6 +20502,24 @@
       "gridsquare": "DN36",
       "station_callsign": "KM6KFX",
       "comment": "FT8  Sent: -03  Rcvd: -05",
+      "additional_fields": {
+        "qso_date_off": "20260906",
+        "my_gridsquare": "CM87VT"
+      }
+    },
+    {
+      "call": "KC0VTJ",
+      "qso_date": "2026-09-06",
+      "time_on": "22:46:15",
+      "time_off": "22:47:15",
+      "band": "20M",
+      "freq": "14.075069",
+      "mode": "FT8",
+      "rst_sent": "-04",
+      "rst_rcvd": "-17",
+      "gridsquare": "EM28",
+      "station_callsign": "KM6KFX",
+      "comment": "FT8  Sent: -04  Rcvd: -17",
       "additional_fields": {
         "qso_date_off": "20260906",
         "my_gridsquare": "CM87VT"
